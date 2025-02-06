@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+/* Glass effect for cards */
+.glass-card {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-xl;
+}
+
+/* Modern gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent;
+}
+
+/* Animated button hover */
+.hover-glow {
+  @apply transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25;
+}
